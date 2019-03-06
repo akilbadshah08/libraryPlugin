@@ -1,0 +1,16 @@
+.booksearch-col-6{
+	width: 48%;
+	margin: 0 1%;
+	float: left;
+}
+.clearfix{
+	clear: both
+}
+.book-search-form input,.book-search-form select{
+	width: 100%;
+}
+input.book-price {
+    display: inline-block !important;
+    width: 110px !important;
+    text-align: center;
+}
