@@ -11,7 +11,7 @@
  * All rights reserved.
  *
  * NOTICE:  All information contained herein is, and remains
- * the property of Cloudwords Incorporated. The intellectual and technical
+ * the property of bookserch Incorporated. The intellectual and technical
  * concepts contained herein are proprietary to Cloudwords Incorporated and
  * may be covered by U.S. and Foreign Patents, patents in process, and are
  * protected by trade secret or copyright law. Dissemination of this information
