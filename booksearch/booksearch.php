@@ -1,6 +1,4 @@
 <?php
-//phpinfo();
-//die;
 /**
  * A WordPress plugin that integrates booksearch translation platform.
  *
