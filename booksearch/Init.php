@@ -7,7 +7,7 @@
  * @since      1.0.0
  *
  * *****************************************************************************
- * Copyright (c) 2018 Cloudwords, Inc.
+ * Copyright (c) 2018 bookserch, Inc.
  * All rights reserved.
  *
  * NOTICE:  All information contained herein is, and remains
