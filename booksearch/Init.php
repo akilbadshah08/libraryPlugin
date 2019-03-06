@@ -1,9 +1,9 @@
 <?php
 /**
- * @package  Cloudwords_Wordpress
- * @link       http://www.cloudwords.com
- * @package    Cloudwords_WordPress
- * @subpackage Cloudwords_WordPress/includes
+ * @package  bookserch_Wordpress
+ * @link       http://www.bookserch.com
+ * @package    bookserch_WordPress
+ * @subpackage bookserch_WordPress/includes
  * @since      1.0.0
  *
  * *****************************************************************************
