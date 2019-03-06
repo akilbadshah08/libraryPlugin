@@ -30,7 +30,7 @@ class Admin
 function register(){
     self::registerPostTypes();
     self::registerTaxonomies();
-    self::registerGetMenuPages();
+    self::registerAdminMenuPages();
 
 }
 
@@ -59,7 +59,7 @@ static function registerTaxonomies(){
 	}	
 }
 
-static function registerGetMenuPages(){
+static function registerAdminMenuPages(){
 	$menu_pages	= self::getMenuPages();
 	foreach ($menu_pages as $key => $menu_page) {
 		(new CustomMenuPage())->setTitle($menu_page['title'])->setSlug($menu_page['slug'])->setTemplate($menu_page['template'])->register();
