@@ -17,6 +17,8 @@
  */
 define( 'BOOK_SEARCH_PATH', dirname( __FILE__ ) );
 define( 'BOOK_SEARCH_PLUGIN_URL', plugins_url( '', __FILE__ ) );
+define( 'ADMIN_AJAX_URL', admin_url( 'admin-ajax.php') );
+
  require_once( dirname( __FILE__ ).'/vendor/autoload.php' );
 
  require_once( dirname( __FILE__ ).'/init.php' );
