@@ -55,7 +55,7 @@
 
     </div>
 
-    <input type="hidden" name='admin-ajax' class="admin-ajax" value="<?php echo admin_url( 'admin-ajax.php' ); ?>"  >
+    <input type="hidden" name='admin-ajax' class="admin-ajax" value="<?php echo ADMIN_AJAX_URL ?>"  >
     <input type="submit" name="book-search-button" class="book-search-button" value="book-search-button">
 <div class="search-result">
     
