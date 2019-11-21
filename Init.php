@@ -21,7 +21,8 @@
  */
 use BookSearch\Admin;
 use BookSearch\Front;
-
+use BookSearch\Activate;
+use BookSearch\Deactivate;
 final class Init
 {
 
@@ -35,6 +36,8 @@ final class Init
         return [
             Admin::class,
             Front::class,
+            Activate::class,
+            Deactivate::class,
         ];
     }
 

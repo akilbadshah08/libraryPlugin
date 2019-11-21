@@ -15,6 +15,7 @@
  * License URI:       http://www.booksearch.com
  * Text Domain:       booksearch-wordpress
  */
+/*#replace */
 define( 'BOOK_SEARCH_PATH', dirname( __FILE__ ) );
 define( 'BOOK_SEARCH_PLUGIN_URL', plugins_url( '', __FILE__ ) );
 define( 'ADMIN_AJAX_URL', admin_url( 'admin-ajax.php') );

@@ -16,7 +16,7 @@ class Front
 {
 	function register(){
 	    self::registerShortcode();
-	    self::registerScripts();
+	    add_action('wp_enqueue_scripts',[$this,'registerScripts']);
 		add_action("wp_ajax_book_search", [$this,'ajaxBookSearch']);
 		add_action("wp_ajax_nopriv_book_search", [$this,'ajaxBookSearch']);	    	
 	}
@@ -72,7 +72,7 @@ class Front
         echo $html;
         die;
 	}
-	static function registerScripts(){
+	public function registerScripts(){
 			wp_enqueue_script ( 'ajax-search', BOOK_SEARCH_PLUGIN_URL . '/assets/js/ajax-search.js',array('jquery') );
 			wp_enqueue_style ( 'book-search', BOOK_SEARCH_PLUGIN_URL . '/assets/css/book-search.css' );
 			wp_enqueue_script ( 'ui-jquery', 'https://code.jquery.com/ui/1.12.1/jquery-ui.js',array('jquery') );

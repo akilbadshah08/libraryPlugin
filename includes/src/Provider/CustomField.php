@@ -92,6 +92,7 @@ class CustomField
         }
     }
     public function save_metadata($ID){
-          update_post_meta($ID,$this->name,$_POST[$this->name]);  
+        if(isset($_POST[$this->name]))
+           update_post_meta($ID,$this->name,$_POST[$this->name]);  
     }
 }
